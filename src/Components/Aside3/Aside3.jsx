@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './Aside3.module.css'
-import { Button, Divider, Input, Menu, Select } from 'antd';
-import { AppstoreOutlined, MailOutlined, SettingOutlined, SearchOutlined, } from '@ant-design/icons';
+import { Divider, Input, Menu } from 'antd';
+import { SearchOutlined, } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
 
