@@ -1,0 +1,20 @@
+.asideHeader {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 16px 10px 24px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 16px;
+    padding: 0 16px 0 24px;
+}
+
+.gridButton {
+    height: auto;
+    padding: 20px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+}

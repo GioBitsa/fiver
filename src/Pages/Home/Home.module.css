@@ -1,0 +1,101 @@
+
+.profile{
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 20px;
+    height: 70%;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.profile .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.profile .profileInfo strong {
+    font-weight: bold;
+}
+
+.profile .profileInfo span {
+    color: #c5c5c5;
+}
+
+.propButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 70%;
+}
+
+.selectProp {
+    margin: 0 5px;
+}
+
+.asideHeader {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 16px 10px 24px;
+}
+
+.asidePages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.antMenuItem {
+    height: 180px !important;
+}
+
+.asideButtons {
+    width: 50%;
+    height: auto;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.asideColumn {
+    width: 60px;
+    padding: 20px 0;
+}
+
+.asideColumnButton {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 13px;
+    margin: 20px auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .propButton {
+        margin: 0 5px;
+    }
+}

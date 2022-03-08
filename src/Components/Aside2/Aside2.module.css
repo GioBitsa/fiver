@@ -1,0 +1,73 @@
+.asideHeader {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 16px 15px 24px;
+    color:rgb(18, 18, 18);
+    border-bottom: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+}
+
+.container {
+    width: 100%;
+    padding: 0 16px 0 24px;
+}
+
+.button {
+    width: 100%;
+    border: 2px solid #1890ff;
+    border-radius: 10px;
+    height: auto;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 100%;
+    width: 50px;
+    background-color: #1890ff;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.icon svg {
+    font-size: 20px;
+    color: white;
+}
+
+.desc {
+    text-align: left;
+}
+
+.desc p {
+    margin-bottom: 0;
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.desc p:nth-child(2) {
+    color: rgba(18, 18, 18, 0.5);
+}
+
+.inputContainer {
+    margin: 20px 0 10px 0;
+    width: 100%;
+    padding: 0 16px 0 24px;
+}
+
+.input {
+    padding: 10px 11px;
+    border-radius: 10px;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.header {
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

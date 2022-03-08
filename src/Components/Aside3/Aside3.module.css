@@ -1,0 +1,36 @@
+.asideHeader {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 16px 15px 24px;
+    color:rgb(18, 18, 18);
+    border-bottom: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+}
+
+.inputContainer {
+    margin: 20px 0 20px 0;
+    width: 100%;
+    padding: 0 16px 0 24px;
+}
+
+.input {
+    padding: 10px 11px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    padding: 0 16px 0 24px;
+}
+
+.menu {
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.divider {
+    margin: 0;
+    background-color: #c5c5c5;
+}
